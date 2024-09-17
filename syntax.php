@@ -127,8 +127,8 @@ class syntax_plugin_fho extends DokuWiki_Syntax_Plugin {
     $html .= '<div class="legend">';
     $html .= '<p><span class="legend-blue" style="background-color: blue; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Anwesend in Präsenz</p>';
     $html .= '<p><span class="legend-green" style="background-color: green; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Im mobilen Homeoffice erreichbar und aktiv</p>';
-    $html .= '<p><span class="legend-yellow" style="background-color: yellow; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Im mobilen Homeoffice nicht erreichbar und inaktiv (Pause oder Unterbrechung)</p>';
-    $html .= '<p><span class="legend-red" style="background-color: red; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Tel. erreichbar aber inaktiv</p>';
+    $html .= '<p><span class="legend-yellow" style="background-color: yellow; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Tel. erreichbar aber inaktiv (keinen umgehenden Zugriff auf Arbeitsumgebung (z.B. Einkaufen, Werkstatt, Kinder, Eltern etc.)) </p>';
+    $html .= '<p><span class="legend-red" style="background-color: red; border: 1px solid black; display: inline-block; width: 20px; height: 20px;"></span> Im mobilen Homeoffice nicht erreichbar und inaktiv (Pause oder Unterbrechung)</p>';
     $html .= '<p><span class="legend-delete" style="background-color: #fff; border: 1px solid black; display: inline-block; width: 20px; height: 20px; cursor:pointer;"></span> Farbe löschen</p>';
     $html .= '</div>';
 
