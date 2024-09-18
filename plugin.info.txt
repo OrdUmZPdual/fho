@@ -1,7 +1,7 @@
 base   fho
 author Lukas Schladebach
 email  cw982320@charlottenburg-wilmersdorf.de
-date   2024-09-17
+date   2024-09-18
 name   FHO Liste
 desc   FHO Liste der OrdUmZP
 url    https://www.berlin.de/ba-charlottenburg-wilmersdorf/politik/bezirksamt/abteilung-ordnung-umwelt-strassen-und-gruenflaechen/
