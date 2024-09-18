@@ -74,17 +74,18 @@ table.status-table td:hover {
 }
 
 /* Speicherbutton */
-button#save-button {
+html body button#save-button {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #007bff; /* Kräftiges Blau */
-    color: #fff;
-    border: none;
+    background-color: #fff; /* Weißer Hintergrund */
+    color: #000; /* Schwarze Schrift */
+    border: 2px solid #000; /* Schwarzer Rahmen */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
 }
+
 
 button#save-button:hover {
     background-color: #0056b3; /* Dunkleres Blau beim Hover */
